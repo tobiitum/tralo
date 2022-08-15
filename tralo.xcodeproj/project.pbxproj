@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F61ECD8928AAC3F0003F3D61 /* traloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ECD8828AAC3F0003F3D61 /* traloApp.swift */; };
+		F61ECD8B28AAC3F0003F3D61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ECD8A28AAC3F0003F3D61 /* ContentView.swift */; };
+		F61ECD8D28AAC3F3003F3D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61ECD8C28AAC3F3003F3D61 /* Assets.xcassets */; };
+		F61ECD9028AAC3F3003F3D61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61ECD8F28AAC3F3003F3D61 /* Preview Assets.xcassets */; };
+		F61ECD9A28AAC3F3003F3D61 /* traloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ECD9928AAC3F3003F3D61 /* traloTests.swift */; };
+		F61ECDA428AAC3F3003F3D61 /* traloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ECDA328AAC3F3003F3D61 /* traloUITests.swift */; };
+		F61ECDA628AAC3F3003F3D61 /* traloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ECDA528AAC3F3003F3D61 /* traloUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F61ECD9628AAC3F3003F3D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F61ECD7D28AAC3F0003F3D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61ECD8428AAC3F0003F3D61;
+			remoteInfo = tralo;
+		};
+		F61ECDA028AAC3F3003F3D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F61ECD7D28AAC3F0003F3D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61ECD8428AAC3F0003F3D61;
+			remoteInfo = tralo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F61ECD8528AAC3F0003F3D61 /* tralo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tralo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61ECD8828AAC3F0003F3D61 /* traloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traloApp.swift; sourceTree = "<group>"; };
+		F61ECD8A28AAC3F0003F3D61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F61ECD8C28AAC3F3003F3D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F61ECD8F28AAC3F3003F3D61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F61ECD9528AAC3F3003F3D61 /* traloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = traloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61ECD9928AAC3F3003F3D61 /* traloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traloTests.swift; sourceTree = "<group>"; };
+		F61ECD9F28AAC3F3003F3D61 /* traloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = traloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61ECDA328AAC3F3003F3D61 /* traloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traloUITests.swift; sourceTree = "<group>"; };
+		F61ECDA528AAC3F3003F3D61 /* traloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F61ECD8228AAC3F0003F3D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61ECD9228AAC3F3003F3D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61ECD9C28AAC3F3003F3D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F61ECD7C28AAC3F0003F3D61 = {
+			isa = PBXGroup;
+			children = (
+				F61ECD8728AAC3F0003F3D61 /* tralo */,
+				F61ECD9828AAC3F3003F3D61 /* traloTests */,
+				F61ECDA228AAC3F3003F3D61 /* traloUITests */,
+				F61ECD8628AAC3F0003F3D61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F61ECD8628AAC3F0003F3D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F61ECD8528AAC3F0003F3D61 /* tralo.app */,
+				F61ECD9528AAC3F3003F3D61 /* traloTests.xctest */,
+				F61ECD9F28AAC3F3003F3D61 /* traloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F61ECD8728AAC3F0003F3D61 /* tralo */ = {
+			isa = PBXGroup;
+			children = (
+				F61ECD8828AAC3F0003F3D61 /* traloApp.swift */,
+				F61ECD8A28AAC3F0003F3D61 /* ContentView.swift */,
+				F61ECD8C28AAC3F3003F3D61 /* Assets.xcassets */,
+				F61ECD8E28AAC3F3003F3D61 /* Preview Content */,
+			);
+			path = tralo;
+			sourceTree = "<group>";
+		};
+		F61ECD8E28AAC3F3003F3D61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F61ECD8F28AAC3F3003F3D61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F61ECD9828AAC3F3003F3D61 /* traloTests */ = {
+			isa = PBXGroup;
+			children = (
+				F61ECD9928AAC3F3003F3D61 /* traloTests.swift */,
+			);
+			path = traloTests;
+			sourceTree = "<group>";
+		};
+		F61ECDA228AAC3F3003F3D61 /* traloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F61ECDA328AAC3F3003F3D61 /* traloUITests.swift */,
+				F61ECDA528AAC3F3003F3D61 /* traloUITestsLaunchTests.swift */,
+			);
+			path = traloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F61ECD8428AAC3F0003F3D61 /* tralo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61ECDA928AAC3F3003F3D61 /* Build configuration list for PBXNativeTarget "tralo" */;
+			buildPhases = (
+				F61ECD8128AAC3F0003F3D61 /* Sources */,
+				F61ECD8228AAC3F0003F3D61 /* Frameworks */,
+				F61ECD8328AAC3F0003F3D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tralo;
+			productName = tralo;
+			productReference = F61ECD8528AAC3F0003F3D61 /* tralo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F61ECD9428AAC3F3003F3D61 /* traloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61ECDAC28AAC3F3003F3D61 /* Build configuration list for PBXNativeTarget "traloTests" */;
+			buildPhases = (
+				F61ECD9128AAC3F3003F3D61 /* Sources */,
+				F61ECD9228AAC3F3003F3D61 /* Frameworks */,
+				F61ECD9328AAC3F3003F3D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61ECD9728AAC3F3003F3D61 /* PBXTargetDependency */,
+			);
+			name = traloTests;
+			productName = traloTests;
+			productReference = F61ECD9528AAC3F3003F3D61 /* traloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F61ECD9E28AAC3F3003F3D61 /* traloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61ECDAF28AAC3F3003F3D61 /* Build configuration list for PBXNativeTarget "traloUITests" */;
+			buildPhases = (
+				F61ECD9B28AAC3F3003F3D61 /* Sources */,
+				F61ECD9C28AAC3F3003F3D61 /* Frameworks */,
+				F61ECD9D28AAC3F3003F3D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61ECDA128AAC3F3003F3D61 /* PBXTargetDependency */,
+			);
+			name = traloUITests;
+			productName = traloUITests;
+			productReference = F61ECD9F28AAC3F3003F3D61 /* traloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F61ECD7D28AAC3F0003F3D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F61ECD8428AAC3F0003F3D61 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F61ECD9428AAC3F3003F3D61 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F61ECD8428AAC3F0003F3D61;
+					};
+					F61ECD9E28AAC3F3003F3D61 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F61ECD8428AAC3F0003F3D61;
+					};
+				};
+			};
+			buildConfigurationList = F61ECD8028AAC3F0003F3D61 /* Build configuration list for PBXProject "tralo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F61ECD7C28AAC3F0003F3D61;
+			productRefGroup = F61ECD8628AAC3F0003F3D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F61ECD8428AAC3F0003F3D61 /* tralo */,
+				F61ECD9428AAC3F3003F3D61 /* traloTests */,
+				F61ECD9E28AAC3F3003F3D61 /* traloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F61ECD8328AAC3F0003F3D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61ECD9028AAC3F3003F3D61 /* Preview Assets.xcassets in Resources */,
+				F61ECD8D28AAC3F3003F3D61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61ECD9328AAC3F3003F3D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61ECD9D28AAC3F3003F3D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F61ECD8128AAC3F0003F3D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61ECD8B28AAC3F0003F3D61 /* ContentView.swift in Sources */,
+				F61ECD8928AAC3F0003F3D61 /* traloApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61ECD9128AAC3F3003F3D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61ECD9A28AAC3F3003F3D61 /* traloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61ECD9B28AAC3F3003F3D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61ECDA428AAC3F3003F3D61 /* traloUITests.swift in Sources */,
+				F61ECDA628AAC3F3003F3D61 /* traloUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F61ECD9728AAC3F3003F3D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61ECD8428AAC3F0003F3D61 /* tralo */;
+			targetProxy = F61ECD9628AAC3F3003F3D61 /* PBXContainerItemProxy */;
+		};
+		F61ECDA128AAC3F3003F3D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61ECD8428AAC3F0003F3D61 /* tralo */;
+			targetProxy = F61ECDA028AAC3F3003F3D61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F61ECDA728AAC3F3003F3D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F61ECDA828AAC3F3003F3D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F61ECDAA28AAC3F3003F3D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tralo/Preview Content\"";
+				DEVELOPMENT_TEAM = QX224N8F87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbkl.tralo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F61ECDAB28AAC3F3003F3D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tralo/Preview Content\"";
+				DEVELOPMENT_TEAM = QX224N8F87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbkl.tralo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F61ECDAD28AAC3F3003F3D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QX224N8F87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbkl.traloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tralo.app/tralo";
+			};
+			name = Debug;
+		};
+		F61ECDAE28AAC3F3003F3D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QX224N8F87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbkl.traloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tralo.app/tralo";
+			};
+			name = Release;
+		};
+		F61ECDB028AAC3F3003F3D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QX224N8F87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbkl.traloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tralo;
+			};
+			name = Debug;
+		};
+		F61ECDB128AAC3F3003F3D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QX224N8F87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbkl.traloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tralo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F61ECD8028AAC3F0003F3D61 /* Build configuration list for PBXProject "tralo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61ECDA728AAC3F3003F3D61 /* Debug */,
+				F61ECDA828AAC3F3003F3D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61ECDA928AAC3F3003F3D61 /* Build configuration list for PBXNativeTarget "tralo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61ECDAA28AAC3F3003F3D61 /* Debug */,
+				F61ECDAB28AAC3F3003F3D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61ECDAC28AAC3F3003F3D61 /* Build configuration list for PBXNativeTarget "traloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61ECDAD28AAC3F3003F3D61 /* Debug */,
+				F61ECDAE28AAC3F3003F3D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61ECDAF28AAC3F3003F3D61 /* Build configuration list for PBXNativeTarget "traloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61ECDB028AAC3F3003F3D61 /* Debug */,
+				F61ECDB128AAC3F3003F3D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F61ECD7D28AAC3F0003F3D61 /* Project object */;
+}
