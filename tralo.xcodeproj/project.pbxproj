@@ -14,6 +14,12 @@
 		F61ECD9A28AAC3F3003F3D61 /* traloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ECD9928AAC3F3003F3D61 /* traloTests.swift */; };
 		F61ECDA428AAC3F3003F3D61 /* traloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ECDA328AAC3F3003F3D61 /* traloUITests.swift */; };
 		F61ECDA628AAC3F3003F3D61 /* traloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61ECDA528AAC3F3003F3D61 /* traloUITestsLaunchTests.swift */; };
+		F61ECDB528AAEA61003F3D61 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = F61ECDB428AAEA61003F3D61 /* AppIcon.appiconset */; };
+		F62446E228AAF5C5005BC759 /* Demode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F62446E128AAF5B0005BC759 /* Demode.ttf */; };
+		F62446E528AAF6FA005BC759 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62446E428AAF6FA005BC759 /* FontManager.swift */; };
+		F6C4A00F28AD317C00A0AED5 /* Termin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4A00E28AD317C00A0AED5 /* Termin.swift */; };
+		F6C4A01128AD335600A0AED5 /* TermineRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4A01028AD335600A0AED5 /* TermineRowView.swift */; };
+		F6C4A01428AD93F600A0AED5 /* SelectableCalendarView in Frameworks */ = {isa = PBXBuildFile; productRef = F6C4A01328AD93F600A0AED5 /* SelectableCalendarView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		F61ECD9F28AAC3F3003F3D61 /* traloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = traloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61ECDA328AAC3F3003F3D61 /* traloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traloUITests.swift; sourceTree = "<group>"; };
 		F61ECDA528AAC3F3003F3D61 /* traloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F61ECDB428AAEA61003F3D61 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = "../../../../../../../var/folders/tn/jm7r78691jxffkfd35j2f9r80000gn/T/com.goodsnooze.bakery/77439C69-10B8-41AA-88FB-DBF6294E2029-18100-000000404C998253/AppIcon.appiconset"; sourceTree = "<group>"; };
+		F62446E128AAF5B0005BC759 /* Demode.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Demode.ttf; sourceTree = "<group>"; };
+		F62446E328AAF68B005BC759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F62446E428AAF6FA005BC759 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		F6C4A00E28AD317C00A0AED5 /* Termin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Termin.swift; sourceTree = "<group>"; };
+		F6C4A01028AD335600A0AED5 /* TermineRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermineRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C4A01428AD93F600A0AED5 /* SelectableCalendarView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,8 @@
 		F61ECD7C28AAC3F0003F3D61 = {
 			isa = PBXGroup;
 			children = (
+				F6C4A01028AD335600A0AED5 /* TermineRowView.swift */,
+				F6C4A00E28AD317C00A0AED5 /* Termin.swift */,
 				F61ECD8728AAC3F0003F3D61 /* tralo */,
 				F61ECD9828AAC3F3003F3D61 /* traloTests */,
 				F61ECDA228AAC3F3003F3D61 /* traloUITests */,
@@ -94,9 +109,12 @@
 		F61ECD8728AAC3F0003F3D61 /* tralo */ = {
 			isa = PBXGroup;
 			children = (
+				F62446E328AAF68B005BC759 /* Info.plist */,
+				F62446E028AAF5AB005BC759 /* Fonts */,
 				F61ECD8828AAC3F0003F3D61 /* traloApp.swift */,
 				F61ECD8A28AAC3F0003F3D61 /* ContentView.swift */,
 				F61ECD8C28AAC3F3003F3D61 /* Assets.xcassets */,
+				F61ECDB428AAEA61003F3D61 /* AppIcon.appiconset */,
 				F61ECD8E28AAC3F3003F3D61 /* Preview Content */,
 			);
 			path = tralo;
@@ -127,6 +145,15 @@
 			path = traloUITests;
 			sourceTree = "<group>";
 		};
+		F62446E028AAF5AB005BC759 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F62446E128AAF5B0005BC759 /* Demode.ttf */,
+				F62446E428AAF6FA005BC759 /* FontManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +170,9 @@
 			dependencies = (
 			);
 			name = tralo;
+			packageProductDependencies = (
+				F6C4A01328AD93F600A0AED5 /* SelectableCalendarView */,
+			);
 			productName = tralo;
 			productReference = F61ECD8528AAC3F0003F3D61 /* tralo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +245,9 @@
 				Base,
 			);
 			mainGroup = F61ECD7C28AAC3F0003F3D61;
+			packageReferences = (
+				F6C4A01228AD93F600A0AED5 /* XCRemoteSwiftPackageReference "Selectable-Calendar-View" */,
+			);
 			productRefGroup = F61ECD8628AAC3F0003F3D61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62446E228AAF5C5005BC759 /* Demode.ttf in Resources */,
+				F61ECDB528AAEA61003F3D61 /* AppIcon.appiconset in Resources */,
 				F61ECD9028AAC3F3003F3D61 /* Preview Assets.xcassets in Resources */,
 				F61ECD8D28AAC3F3003F3D61 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C4A00F28AD317C00A0AED5 /* Termin.swift in Sources */,
 				F61ECD8B28AAC3F0003F3D61 /* ContentView.swift in Sources */,
+				F62446E528AAF6FA005BC759 /* FontManager.swift in Sources */,
 				F61ECD8928AAC3F0003F3D61 /* traloApp.swift in Sources */,
+				F6C4A01128AD335600A0AED5 /* TermineRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +458,8 @@
 				DEVELOPMENT_TEAM = QX224N8F87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tralo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TRALO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +489,8 @@
 				DEVELOPMENT_TEAM = QX224N8F87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tralo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TRALO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +625,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6C4A01228AD93F600A0AED5 /* XCRemoteSwiftPackageReference "Selectable-Calendar-View" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mszpro/Selectable-Calendar-View";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6C4A01328AD93F600A0AED5 /* SelectableCalendarView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6C4A01228AD93F600A0AED5 /* XCRemoteSwiftPackageReference "Selectable-Calendar-View" */;
+			productName = SelectableCalendarView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F61ECD7D28AAC3F0003F3D61 /* Project object */;
 }
